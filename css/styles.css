@@ -15,7 +15,10 @@
     --color-javascript: #f7df1e;
     --color-git: #f05032;
     --color-vscode: #007acc;
-    --color-postman: #ff6c37;
+    --color-postman: #d1760e;
+    --color-vercel: rgb(2, 2, 2);
+    --color-apis: #e91e1e;
+    --color-neon: #2caf15;
 }
 body {
   background-color: var(--color-fondo);
@@ -109,6 +112,15 @@ nav a {
 }
 .postman {
     color: var(--color-postman);
+}
+.vercel {
+    color: var(--color-vercel);
+}
+.apis {
+    color: var(--color-apis);
+}
+.neon {
+    color: var(--color-neon);
 }
 .proyectos-grid {
   display: grid;
