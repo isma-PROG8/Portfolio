@@ -366,3 +366,20 @@ main {
     }
 
 }
+.proyecto-destacado {
+  grid-column: 1 / -1;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 15px;
+}
+th, td {
+  border: 1px solid rgb(70, 65, 65);
+  padding: 8px;
+  text-align: left;
+}
+.proyecto-destacado > a {
+  margin-right: 30px;
+}
+
